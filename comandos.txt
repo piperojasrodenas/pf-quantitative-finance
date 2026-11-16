@@ -1,0 +1,45 @@
+#COMANDOS PYTHON
+#crear un ambiente virtual (torpedos)
+python3 -m venv .venv
+
+#activar ambiente virtual
+source .venv/bin/activate
+
+#el comando de crear se usa 1 vez, el de activar se hace siempre que queramos activar
+
+#instalar librerias desde archivo "requirements"
+pip3 install -r requirements.txt
+
+#comando importante
+python3 main.py
+
+# ===================================
+# Comandos de Git
+# ===================================
+
+# Revisar status
+git status
+
+#Agregar archivo
+git add (nombre_archivo) | ejemplo: git add main.py
+
+# Confirmar cambios
+git commit -m "backup"
+
+# Cargar cambios al repositorio
+git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
